@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const userName = process.env.MONGO_USERNAME;
 const password = process.env.MONGO_PASSWORD;
-const uri = `mongodb+srv://${userName}:${password}@cluster0.bd45ngl.mongodb.net/meal_plans`;
+const uri = `mongodb+srv://${userName}:${password}@cluster0.bd45ngl.mongodb.net/nutritional_profile`;
 
 const connectDB = async () => {
   try {
